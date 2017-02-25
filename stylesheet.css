@@ -1,0 +1,70 @@
+
+#header h1{
+  font-size: 50px;
+}
+html{
+  width:950px;
+  margin:0 auto;
+}
+body {
+  background-color: rgb(104,187,285);
+}
+h1{
+  font-size: 8px;
+  color: black;
+  text-align: center;
+}
+h2{
+  font-size: 20px;
+  text-align: center;
+}
+h3{
+  font-size: 30px;
+  color: black;
+  text-align: center;
+}
+p {
+  font-size: 20px;
+}
+img{
+  max-width: 30%;
+  max-height: 30%;
+}
+#container{
+  height: 700px;
+}
+#left-box{
+  padding: 10px;
+  height: 700px;
+  width: auto;
+  margin: 0;
+  float: left;
+  background-color: rgb(9,30,45);
+  color: rgb(255, 255, 255);
+}
+#right-box{
+  width: auto;
+}
+#experiences-box{
+  width: 682px;
+  height: 360px;
+  float: right;
+  background-color: rgb(255,255,255);
+}
+#experiences-box p{
+  text-align: center;
+}
+#studies-box{
+  width: 682px;
+  height: 360px;
+  float: right;
+  background-color: rgb(255, 255, 255);
+}
+#studies-box p{
+  text-align: center;
+}
+#footer{
+  margin-top: 40px;
+  height: 150px;
+  background-color: rgb(26,26,26);
+}
