@@ -2,9 +2,12 @@
 #header h1{
   font-size: 50px;
 }
+#header, #footer{
+  clear: left;
+}
 html{
-  width:950px;
-  margin:0 auto;
+  width: 950px;
+  margin: auto;
 }
 body {
   background-color: rgb(104,187,285);
@@ -31,40 +34,39 @@ img{
   max-height: 30%;
 }
 #container{
-  height: 700px;
+  width: 100%;
 }
 #left-box{
-  padding: 10px;
-  height: 700px;
-  width: auto;
-  margin: 0;
   float: left;
+  max-width: auto;
+  height: 700px;
+  margin: 0;
+  padding: 0;
   background-color: rgb(9,30,45);
   color: rgb(255, 255, 255);
 }
-#right-box{
-  width: auto;
-}
 #experiences-box{
-  width: 682px;
-  height: 360px;
-  float: right;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 350px;
   background-color: rgb(255,255,255);
 }
 #experiences-box p{
   text-align: center;
 }
 #studies-box{
-  width: 682px;
-  height: 360px;
-  float: right;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 350px;
   background-color: rgb(255, 255, 255);
 }
 #studies-box p{
   text-align: center;
 }
 #footer{
-  margin-top: 40px;
+  margin-top: 0px;
   height: 150px;
   background-color: rgb(26,26,26);
 }
